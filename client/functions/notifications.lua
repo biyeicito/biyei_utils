@@ -8,6 +8,4 @@ ShowNotification = function(msg)
     end
 end
 
-RegisterCommand('test', function()
-    ShowNotification('s')
-end)
+exports('ShowNotification', ShowNotification)
