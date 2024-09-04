@@ -2,6 +2,9 @@ Config = {}
 Config.Debug = true
 
 
+
+
+
 ---- Framework System ----
 Config.Framework = 'esx'
 ---=========================---
@@ -10,6 +13,13 @@ Config.Framework = 'esx'
 ---=========================---
 
 
+---- SQL System ----
+Config.SQLResource = 'oxmysql'
+---=========================---
+-- 'oxmysql' = OxMysql
+-- 'mariamysql-async' = MariaMysql Async
+---=========================---
+
 
 ---- Notifications System ----
 Config.Notifications = 'esx'
@@ -17,3 +27,11 @@ Config.Notifications = 'esx'
 -- 'esx' = ESX Notifications
 -- 'qbcore' = QBCore Notifications
 ---=========================---
+
+
+
+
+
+
+
+
