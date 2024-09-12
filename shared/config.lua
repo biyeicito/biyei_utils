@@ -2,6 +2,16 @@ Config = {}
 Config.Debug = true
 
 
+---- Language System----
+Config.Lang = 'es' 
+---=========================---
+-- 'es' = Español
+-- 'en' = English
+-- 'fr' = Français
+-- 'pt' = Português
+-- 'de' = Deutsch
+-- 'ru' = Русский
+---=========================---
 
 
 
