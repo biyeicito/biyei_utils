@@ -2,6 +2,6 @@ QBCore = nil
 if Config.Framework == 'qbcore' then
     DebugPrint('QBCore Initialized')
     QBCore = exports['qb-core']:GetCoreObject()
-    Core = ESX
+    Core = QBCore
     Init()
 end
