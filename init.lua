@@ -1,0 +1,3 @@
+Init = function()
+    InitObjects()
+end

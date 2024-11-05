@@ -8,4 +8,9 @@ ShowNotification = function(msg)
     end
 end
 
+RegisterNetEvent('biyei_utils:ShowNotification')
+AddEventHandler('biyei_utils:ShowNotification', function(msg)
+    ShowNotification(msg)
+end)
+
 exports('ShowNotification', ShowNotification)

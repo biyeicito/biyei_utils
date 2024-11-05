@@ -12,6 +12,7 @@ games {
 
 
 shared_scripts {
+    'init.lua',
     'shared/config.lua',
     'shared/utils.lua',
     'shared/objects.lua'

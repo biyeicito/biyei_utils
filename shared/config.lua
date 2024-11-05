@@ -27,7 +27,17 @@ Config.Framework = 'esx'
 Config.SQLResource = 'oxmysql'
 ---=========================---
 -- 'oxmysql' = OxMysql
--- 'mariamysql-async' = MariaMysql Async
+---=========================---
+
+
+
+
+---- Inventory System ----
+Config.Inventory = 'ox_inventory'
+---=========================---
+-- 'ox_inventory' = Ox Inventory
+-- 'qb-inventory' = QBCore Inventory
+-- 'origen_inventory' = Origen Inventory
 ---=========================---
 
 
@@ -37,6 +47,16 @@ Config.Notifications = 'esx'
 -- 'esx' = ESX Notifications
 -- 'qbcore' = QBCore Notifications
 ---=========================---
+
+
+
+---- Notifications System ----
+Config.HelpText = 'drawtext'
+---=========================---
+-- 'drawtext' = Draw Text
+-- 'custom' = Custom Text Help
+---=========================---
+
 
 
 
