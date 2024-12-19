@@ -7,14 +7,18 @@ AddItem = function(id, item, amount, metadata)
         if metadata then
             print('^3The inventory you selected does not support metadata, the item has not been delivered for this reason.')
         else
-
+            if Player then
+                Player.addInventoryItem(item, amount)
+            end
         end
     elseif Config.Inventory == 'ox_inventory' then
         exports.ox_inventory:AddItem(id, item, amount, metadata)
     elseif Config.Inventory == 'qb-inventory' then
-    
+        Player.Functions.AddItem(item, amount, metadata)
     elseif Config.Inventory == 'origen_inventory' then
-
+        exports.origen_inventory:AddItem(id, item, amount, nil,  metadata)
+    else
+        print('^1Inventory system not found')
     end
 end
 exports('AddItem', AddItem)
